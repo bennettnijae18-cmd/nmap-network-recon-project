@@ -28,6 +28,10 @@ nmap -sS -sV -A scanme.nmap.org
 | 139   | Filtered| NetBIOS    | -                                | Protected by firewall filtering   | 
 | 445   | Filtered| SMB        | -                                | Protected by firewall filtering   | 
 
+
+## 📸 Evidence
+
+![Nmap Scan Output](NmapScan.png)
 ⚠️ Risk Analysis
 
 The scan revealed multiple open ports, which increase the attack surface of the system. 
